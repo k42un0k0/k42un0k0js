@@ -5,14 +5,11 @@
   "author": "ShiratoriTenta <tenta1111swan@gmail.com>",
   "homepage": "https://github.com/k42un0k0/k42un0k0js#readme",
   "license": "MIT",
-  "main": "dist/common.js",
+  "main": "dist/index.js",
   "directories": {
     "lib": "dist",
     "test": "__tests__"
   },
-  "files": [
-    "dist/*"
-  ],
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
