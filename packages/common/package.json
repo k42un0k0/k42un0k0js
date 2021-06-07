@@ -1,5 +1,5 @@
 {
-  "name": "@k42un0k0js/common",
+  "name": "@k42un0k0/common",
   "version": "0.0.4",
   "description": "> TODO: description",
   "author": "ShiratoriTenta <tenta1111swan@gmail.com>",
@@ -35,5 +35,5 @@
     "webpack": "^5.38.1",
     "webpack-cli": "^4.7.0"
   },
-  "gitHead": "457ed7241df14d34db360201b582491494274c7d"
+  "gitHead": "fce48f0ddda4a94b65c8a0c72672195166a4f7a4"
 }
