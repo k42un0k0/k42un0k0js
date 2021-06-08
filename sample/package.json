@@ -1,8 +1,9 @@
 {
-  "name": "sandbox",
+  "name": "sample",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@k42un0k0/react": "^0.0.10",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",

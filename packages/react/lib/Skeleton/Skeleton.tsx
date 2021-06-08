@@ -1,18 +1,26 @@
-import type { ComponentProps } from "react";
+import type { ComponentProps, ReactNode } from "react";
 
-type Props = ComponentProps<"div">;
+type Props = ComponentProps<"div"> & {
+  body?: ReactNode;
+};
 
 const animName = "k42un0k0-react-skelton";
-export default function Skelton(props: Props): JSX.Element {
+export default function Skelton({
+  body,
+  style = {},
+  ...props
+}: Props): JSX.Element {
+  if (body != null) {
+    return <>{body}</>;
+  }
   return (
     <div
       {...props}
       style={{
-        width: 100,
-        height: 100,
         backgroundColor: "#ddd",
         position: "relative",
         overflow: "hidden",
+        ...style,
       }}
     >
       <style>
