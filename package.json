@@ -11,6 +11,7 @@
   ],
   "scripts": {
     "bootstrap": "lerna bootstrap",
+    "test": "jest --watch",
     "build": "rm -rf dist && NODE_ENV=production babel packages/react/lib/**/* --out-dir packages/react/dist"
   },
   "dependencies": {
