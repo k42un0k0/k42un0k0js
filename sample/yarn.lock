@@ -1453,10 +1453,15 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@k42un0k0/react@^0.0.12":
-  version "0.0.12"
-  resolved "https://npm.pkg.github.com/download/@k42un0k0/react/0.0.12/ca2163bce8a44ada9f87251e43394d96e8995d076356f8d181eda49cacad154d#c5affe4792dbb6dc929897b6ff73d6a78f015693"
-  integrity sha512-W+lab9MBtD2PryRLXtZLaA6Ruug1WJpZljei2p+zxbNLgBAMWkLLGoniSFblEuiflw0kqcEbadKKuZd2byPY6A==
+"@k42un0k0/common@^0.0.13":
+  version "0.0.13"
+  resolved "https://npm.pkg.github.com/download/@k42un0k0/common/0.0.13/f4513d9010529d032887c2f4ca13dc1436684f76856043d8280569a542239b48#eab89215d6ae4a7db87139a009e8a50c49692a82"
+  integrity sha512-/EJNWjyjJQc1et0mi+qhKmBRNuhTIIrHffNMmd/gSbVNcKq6L0ScZ5wbyhBehS6BUGYqpzqeLYIs2dAvbRXI6A==
+
+"@k42un0k0/react@^0.0.14":
+  version "0.0.14"
+  resolved "https://npm.pkg.github.com/download/@k42un0k0/react/0.0.14/af1cfb7ef95a9fd474abc1e5bd908145f0fd06cb52f7642d97dbba012f71b73a#91da12f788a8e1e0c48fc50747f507f6dc9d2cce"
+  integrity sha512-DhumxCRutdhXm/rAxctskorhQMW6IRZF5b/gR1mHCR125ejbXZysVAajbsyzypuBvEFuAD+BEBi4rKxISKPzkQ==
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
