@@ -5,6 +5,10 @@
   "repository": "https://k42un0k0@github.com/k42un0k0/k42un0k0js.git",
   "author": "ShiratoriTenta <tenta1111swan@gmail.com>",
   "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "build": "rm -rf dist && NODE_ENV=production babel packages/react/lib/**/* --out-dir packages/react/dist"
@@ -22,6 +26,7 @@
     "prettier": "2.3.1",
     "rimraf": "3.0.2",
     "ts-jest": "27.0.3",
+    "ts-node": "10.0.0",
     "typescript": "4.3.2",
     "yargs": "17.0.1"
   }

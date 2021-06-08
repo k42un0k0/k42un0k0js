@@ -1,0 +1,23 @@
+{
+  "presets": [
+    "@babel/preset-typescript",
+    [
+      "@babel/env",
+      {
+        "targets": [
+          "last 1 chrome version",
+          "last 1 edge version",
+          "last 1 firefox version",
+          "last 1 safari version",
+          "node 14"
+        ]
+      }
+    ],
+    [
+      "@babel/preset-react",
+      {
+        "runtime": "automatic"
+      }
+    ]
+  ]
+}

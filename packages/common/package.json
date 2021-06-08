@@ -18,12 +18,14 @@
     "url": "git+https://k42un0k0@github.com/k42un0k0/k42un0k0js.git"
   },
   "scripts": {
-    "test": "jest"
+    "build": "ts-node ../../scripts/build.ts",
+    "prebuild": "rimraf dist"
   },
   "bugs": {
     "url": "https://github.com/k42un0k0/k42un0k0js/issues"
   },
   "devDependencies": {
+    "ts-node": "^10.0.0",
     "typescript": "^4.3.2"
   },
   "gitHead": "e1fb7bfc5be47d03684713b92265547541ee027d"
