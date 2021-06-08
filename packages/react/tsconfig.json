@@ -15,7 +15,7 @@
     "downlevelIteration": true,
     "outDir": "dist",
     "declaration": true,
-    "jsx": "react-jsx",
+    "jsx": "preserve",
     "emitDeclarationOnly": true
   },
   "include": ["lib"]
