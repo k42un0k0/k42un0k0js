@@ -13,3 +13,5 @@ yarn babel packages/react/lib --out-dir packages/react/dist --extensions ".ts" -
 ## メモ
 
 npm login していないと publish できません
+
+- publish

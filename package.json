@@ -13,7 +13,7 @@
     "bootstrap": "lerna bootstrap",
     "test": "jest --watch",
     "build": "lerna run build & lerna run copy-files",
-    "release": "lerna publish --contents dist"
+    "release": "lerna publish from-package --contents dist"
   },
   "dependencies": {
     "@babel/cli": "7.14.3",
