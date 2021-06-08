@@ -13,4 +13,6 @@ const Template: Story<ComponentProps<typeof Skeleton>> = (args) => (
 );
 
 export const Default = Template.bind({});
-Default.args = {};
+Default.args = {
+  style: { height: 300, width: 300, backgroundColor: "lightgreen" },
+};
