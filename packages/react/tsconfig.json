@@ -16,7 +16,7 @@
     "outDir": "dist",
     "declaration": true,
     "jsx": "preserve",
-    "emitDeclarationOnly": true
+    "noImplicitAny": false
   },
   "include": ["lib"]
 }
