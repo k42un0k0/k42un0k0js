@@ -20,6 +20,7 @@
   "scripts": {
     "build": "ts-node ../../scripts/build.ts",
     "prebuild": "rimraf dist",
+    "copy-files": "ts-node ../../scripts/copy-files.ts",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },

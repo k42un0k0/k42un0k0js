@@ -1,11 +1,10 @@
-import yargs from "yargs";
-const childProcess = require("child_process");
-const path = require("path");
-const { promisify } = require("util");
+import childProcess from "child_process";
+import path from "path";
+import { promisify } from "util";
 
 const exec = promisify(childProcess.exec);
 
-async function run(params: any) {
+async function run() {
   console.log(path.resolve("./src"));
   const babelConfigPath = path.resolve(__dirname, "../babel.config.json");
   const srcDir = path.resolve("./lib");
@@ -40,27 +39,4 @@ async function run(params: any) {
   }
 }
 
-yargs
-  .command({
-    command: "$0",
-    builder: (command) => {
-      return command
-        .option("largeFiles", {
-          type: "boolean",
-          default: false,
-          describe:
-            "Set to `true` if you know you are transpiling large files.",
-        })
-        .option("onlyESModules", {
-          type: "boolean",
-          default: false,
-          describe: "Set to `true` if the package only ships with ES modules.",
-        })
-        .option("out-dir", { default: "./build", type: "string" })
-        .option("verbose", { type: "boolean" });
-    },
-    handler: run,
-  })
-  .parse();
-
-console.log("a");
+run();
