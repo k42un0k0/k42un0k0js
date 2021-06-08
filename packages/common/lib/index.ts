@@ -1,3 +1,1 @@
-export function common() {
-  // TODO
-}
+export * from "./array";
