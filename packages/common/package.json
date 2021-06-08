@@ -19,6 +19,7 @@
   },
   "scripts": {
     "build": "ts-node ../../scripts/build.ts",
+    "copy-files": "ts-node ../../scripts/copy-files.ts",
     "prebuild": "rimraf dist"
   },
   "bugs": {
