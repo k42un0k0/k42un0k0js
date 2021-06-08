@@ -1453,10 +1453,10 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@k42un0k0/react@^0.0.10":
-  version "0.0.10"
-  resolved "https://npm.pkg.github.com/download/@k42un0k0/react/0.0.10/a3459eb0818f508e56130e1856ae62195e735ba15f8735dcdfaddd3e2e718d19#6d6d16879f555eb72675b00334c5660e700010ba"
-  integrity sha512-dqkvPo0H08YVAqgKvhwUtmyLBC4y7Jf/nj9PQl5kdpKDIm8mQJ6jYHCmM39SzBOF8+ZtKZ8+dZW9N8bHoVcHIg==
+"@k42un0k0/react@^0.0.12":
+  version "0.0.12"
+  resolved "https://npm.pkg.github.com/download/@k42un0k0/react/0.0.12/ca2163bce8a44ada9f87251e43394d96e8995d076356f8d181eda49cacad154d#c5affe4792dbb6dc929897b6ff73d6a78f015693"
+  integrity sha512-W+lab9MBtD2PryRLXtZLaA6Ruug1WJpZljei2p+zxbNLgBAMWkLLGoniSFblEuiflw0kqcEbadKKuZd2byPY6A==
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"

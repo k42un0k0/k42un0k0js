@@ -19,7 +19,9 @@ function App() {
         >
           Learn React
         </a>
-        <Skeleton />
+        <Skeleton
+          style={{ width: 300, height: 300, backgroundColor: "black" }}
+        />
       </header>
     </div>
   );
