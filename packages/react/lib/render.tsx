@@ -13,3 +13,7 @@ export function renderMapByEntries<K, V>(
   }
   return [...renderByEntries()];
 }
+
+export function print<T>(v: T): JSX.Element {
+  return <>{v}</>;
+}
