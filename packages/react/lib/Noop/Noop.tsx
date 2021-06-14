@@ -1,5 +1,5 @@
-import { ReactNode } from "react";
+import { constComponent } from "lib/constComponent";
 
-export default function Noop(): JSX.Element {
-  return <></>;
-}
+const Noop = constComponent(null);
+
+export default Noop;
