@@ -23,3 +23,9 @@ npm login していないと publish できません
 ```
 yarn bootstrap
 ```
+
+## Release
+
+1. `yarn lerna version hogehoge`
+2. `yarn build`
+3. `yarn release`
