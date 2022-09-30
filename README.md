@@ -15,3 +15,11 @@ yarn babel packages/react/lib --out-dir packages/react/dist --extensions ".ts" -
 npm login していないと publish できません
 
 - version up -> build -> release の手順で公開してください
+
+# Maintanance
+
+## Dependency Install
+
+```
+yarn bootstrap
+```
